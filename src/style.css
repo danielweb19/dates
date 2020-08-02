@@ -1,3 +1,7 @@
+
+*{
+    box-sizing: content-box;
+}
 body{
     background-color: #000051;
     color: white;
@@ -53,11 +57,13 @@ div{
     }
 }
 ul{
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 li{
+    max-width: calc(100%/6);
     list-style: none;
     padding: 10px 7px;
     /* border: 1px solid white; */

@@ -3,10 +3,10 @@ let w = box.clientWidth,
     h = box.clientHeight;
 //import {porcentaje} from './index';
 
-box.addEvent(window, "resize", function(e) {
-    w = box.clientWidth;
-    h = box.clientHeight;
-});
+// box.addEvent(window, "resize", function(e) {
+//     w = box.clientWidth;
+//     h = box.clientHeight;
+// });
 function setup(){
     createCanvas(w,h);
 }

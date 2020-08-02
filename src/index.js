@@ -8,7 +8,12 @@ import moment from 'moment';
 
 /** Initial title */
 let nextYear =  Number(moment().add(1,'year').format('YYYY'));
-// let chrismast = 
+
+let christmas = moment('25-07-2020','DD-MM-YYYY');
+let realChristmas = (moment()<=christmas) ? christmas : (christmas.add(1,'year'));
+console.log(realChristmas.add(1,'y')._i);
+console.log(moment()>=christmas);
+
 const difi = document.querySelector('.falta');
 difi.innerText = `there are ${calcDiff('days',nextYear)} days until ${nextYear}`;
 
