@@ -8,6 +8,7 @@ import moment from 'moment';
 
 /** Initial title */
 let nextYear =  Number(moment().add(1,'year').format('YYYY'));
+// let chrismast = 
 const difi = document.querySelector('.falta');
 difi.innerText = `there are ${calcDiff('days',nextYear)} days until ${nextYear}`;
 

@@ -1,0 +1,26 @@
+{
+  "name": "fecha",
+  "version": "1.0.0",
+  "description": "app para manejar fechas",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack-dev-server",
+    "ejecutar": "webpack --mode development"
+  },
+  "author": "daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "moment": "^2.27.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
