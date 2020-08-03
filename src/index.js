@@ -8,11 +8,10 @@ import moment from 'moment';
 
 /** Initial title */
 let nextYear =  Number(moment().add(1,'year').format('YYYY'));
+/** Get the coming christmas */
+let christmas = (`25-12-${moment().year()}`<moment())?`25-12-${moment().year()}`:`25-12-${moment().year()+1}`;
 
-let christmas = moment('25-07-2020','DD-MM-YYYY');
-let realChristmas = (moment()<=christmas) ? christmas : (christmas.add(1,'year'));
-console.log(realChristmas.add(1,'y')._i);
-console.log(moment()>=christmas);
+console.log(christmas);
 
 const difi = document.querySelector('.falta');
 difi.innerText = `there are ${calcDiff('days',nextYear)} days until ${nextYear}`;
@@ -47,7 +46,7 @@ options.addEventListener('click',(e)=>{
 
 /** p5 */
 
-const x = document.querySelector('.x');
+//const x = document.querySelector('.x');
 
 
 

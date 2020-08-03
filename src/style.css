@@ -14,7 +14,8 @@ main{
     margin: auto;
 }
 div{
-    
+    box-sizing: content-box;
+
 }
 .seccion{
     width: 100%;
@@ -59,11 +60,11 @@ div{
 ul{
     max-width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 li{
-    max-width: calc(100%/6);
+    max-width: calc(100%/7);
     list-style: none;
     padding: 10px 7px;
     /* border: 1px solid white; */
